@@ -1,0 +1,26 @@
+Objective
+To gain experience with the operations involving binary search trees. This data structure as linked list uses dynamic memory allocation to grow as the size of the data set grows.
+
+Project Description
+Sorting an array can be simple and fast if using BST (binary search tree). The algorithm is as follows:
+
+insert the elements of the array into a binary search tree.
+copy the elements out of the binary search tree into the array inorder. Because of the special structure of a binary search tree this step is very simple - if you traverse the tree left-to-right in inorder you will visit the elements in increasing order.
+Use the following BST struct to start coding:
+
+struct BST
+{
+        int data;
+        BST * left;
+        BST * right;
+};
+ 
+1- Write a function to insert an array of integers into a BST.
+2- Write a function: void bst_to_array (BST b,int array[],int* n); to copies the values from binary search tree b into array in increasing order.
+The procedure also sets *n, the number of values in the array. You may assume that *n has been initialized to zero by the user. 
+
+3- Write a source code and create an array of integers of size 10 to test your functions.
+
+4- Put all cpp and (h) files in ONE document file, docx or doc (no pdf) and submit the file here. Make sure you follow the submission guidelines (include the headers and the sample outputs, etc). PLEASE NOTE THAT YOU ARE ALLOWED TO SUBMIT ONLY ONE DOCUMENT TO TURNITIN. IT DOESN'T ALLOW MULTIPLE SUBMISSIONS.
+
+This tool needs to be loaded in a new browser window
