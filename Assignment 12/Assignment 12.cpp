@@ -42,6 +42,7 @@ int main() {
 	
 }
 
+
 BST* create(int data){
 	BST* n = new BST();
 	n->data = data;
